@@ -95,7 +95,7 @@ Entre na pasta:
 
 > Conclusão: Troussemos os dados de um repositorio remoto para a pasta Ana
 
-## Sincronizando Dados (Enviar dados aos servidor remoto)
+## Enviar dados aos servidor remoto (Sincronizando Dados)
 
 > Pra onde? De onde?
 
