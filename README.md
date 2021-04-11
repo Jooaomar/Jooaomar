@@ -148,6 +148,6 @@ Branches ("ramos") são utilizados para desenvolver funcionalidades isoladas uma
 
 É interessante separar o desenvolvimento de funcionalidades em branches diferentes, para que as mudanças no código para uma não influencie no funcionamento de outra.
 
-## Unificando todas as auterações para o repósitorio principal
+## Unificando todas as alterações para o repósitorio principal
 
-na master digite o comando `git merge nome-repositorio`
+no branch master digite o comando `git merge nome-repositorio`
