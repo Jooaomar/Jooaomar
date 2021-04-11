@@ -169,3 +169,44 @@ depois enviar suas alterações `git push repositorio-remoto`
  > VOce pode usar também `git rebase nome-repositorio`
 
  Execute o comando `git log --graph` para ver as linhas de desenvolvimento (branches);
+
+
+ ## DESFAZENDO
+
+ 1) Na pasta que representa o seu projeto, faça uma alteração qualquer no arquivo index.html;
+
+2) Execute o git status e veja que há uma alteração para adicionar;
+
+3) Execute o comando `git checkout -- index.html`. Confira se sua alteração foi desfeita;
+
+>1.  Após o `git add`: 
+
+ Execute o comando `git reset HEAD index.html` para trazer o arquivo index.html de volta para a HEAD do projeto (remover do stage, que é o que será enviado para o commit);
+
+ >2. Após git add index.html e o comando git commit -m ""
+
+ 1) Execute o comando git log e copie o hash deste commit recém criado;
+
+2) Rode o comando `git revert hash-numero`, substituindo {hash-numero} pelo hash que você copiou anteriormente;
+
+3) Confira que suas alterações foram desfeitas;
+
+## Guardando para continuar depois
+
+1) Faça mudanças
+
+2) Execute o comando `git stash` para salvar estas alterações na stash;
+
+>Execute o comando `git stash pop`  para trazer a última alteração da stash;
+
+> OUtro jeito:  Ver lista `git stash list` depois `git stash apply numero-stash` depois remova o que guardou `git stash drop`
+
+## Viajando no historico
+
+1. Execute o comando `git log --oneline` para ver os commits de forma resumida. Copie o hash do commit de merge com a branch lista;
+
+2.  Execute o comando `git checkout hash-numero` substituindo {hash} pelo hash que você copiou;
+
+3. Veja que diversas alterações não estão mais presentes;
+
+4. Execute `git checkout master` para voltar à linha principal de desenvolvimento.
