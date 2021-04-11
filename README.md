@@ -153,3 +153,11 @@ Branches ("ramos") são utilizados para desenvolver funcionalidades isoladas uma
 no branch master digite o comando `git merge nome-repositorio`
 
 outra forma: `git rebase nome-repositorio`
+
+## EVITANDO CONFLITOS
+
+> ANTES DE ENVIAR QUALQUER ALTERAÇÃO VERIFIQUE SE TEM ALGUMA ALTERAÇÃO NO REPOSITORIO REMOTO
+
+verificar fazer primeiro `git pull repositorio-remoto`
+
+depois enviar suas alterações `git push repositorio-remoto`
