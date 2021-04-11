@@ -161,3 +161,11 @@ outra forma: `git rebase nome-repositorio`
 verificar fazer primeiro `git pull repositorio-remoto`
 
 depois enviar suas alterações `git push repositorio-remoto`
+
+## NINIFICANDO TRABALHO PARA REPOSITORIO PRINCIPAL
+
+ > EXEMPLO : Execute o comando `git merge titulo` para trazer o trabalho feito na branch titulo para a branch master
+
+ > VOce pode usar também `git rebase nome-repositorio`
+
+ Execute o comando `git log --graph` para ver as linhas de desenvolvimento (branches);
