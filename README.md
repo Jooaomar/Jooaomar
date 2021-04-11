@@ -151,3 +151,5 @@ Branches ("ramos") são utilizados para desenvolver funcionalidades isoladas uma
 ## Unificando todas as alterações para o repósitorio principal
 
 no branch master digite o comando `git merge nome-repositorio`
+
+outra forma: `git rebase nome-repositorio`
