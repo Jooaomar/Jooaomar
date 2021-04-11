@@ -112,5 +112,38 @@ remoto (repositorio central) ?
 comando `git pull nome-repositorio branch-ramo`
 
 > NOTA: VOCÊ PODE RENOMEAR UM REPÓSITORIO: `git romote rename nome-antigo nome-atualizado` 
+## Utilizando um repósitorio na Web (Github)
+> Copie o http do repositório
 
+Codigo:
 
+`git remote add origin https://github.com/sua-url.git`
+
+> Nota: `origin` é nome do repósitorio adicionado mas você pode mudar
+
+2 - Envie os dados do repositório:
+
+`git push origin(nome-repositorio) master`
+
+## Divisões nos ramos de desenvolvimento (Branches)
+
+> São linhas de desenvolvimento. Ex : `master`
+
+consultando os Branchs atuais :
+`git branch`
+
+adicionando um branch, ex : titulo :
+`git branch titulo`
+
+Como ir a um determinado ramo de desenvolvimento, neste exemplo **titulo**:
+
+`git checkout titulo`
+> DICA: Use o site para ter noção da arquitetura no github https://git-school.github.io/visualizing-git/
+
+>ATalho para criar o branch e ir direto para ele: `git checkout -b nome-branch`
+
+## Para saber mais: Ramificações
+
+Branches ("ramos") são utilizados para desenvolver funcionalidades isoladas umas das outras. A branch master é a branch "padrão" quando você cria um repositório.
+
+É interessante separar o desenvolvimento de funcionalidades em branches diferentes, para que as mudanças no código para uma não influencie no funcionamento de outra.
