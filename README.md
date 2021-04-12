@@ -210,3 +210,7 @@ depois enviar suas alterações `git push repositorio-remoto`
 3. Veja que diversas alterações não estão mais presentes;
 
 4. Execute `git checkout master` para voltar à linha principal de desenvolvimento.
+
+## Exibição das mudanças com o Diff
+
+comando: `git diff`. É possível visualizarmos as mudanças realizadas em determinado código. Podemos ver as diferenças entre commits, branches, etc.
