@@ -23,6 +23,7 @@ ou adicionar um específico `git add` nome do arquivo
 `git config --local user.email "seu@email.aqui"`
 ## visualizar o histórico de alterações 
 `git log`
+> Veja a posição dos ultimos comites exe:  `git log -n 2`
 ## Visualizar alteração mais resumida
 `git log --oneline`
 
@@ -172,7 +173,11 @@ depois enviar suas alterações `git push repositorio-remoto`
 
 
  ## DESFAZENDO
+Antes do git add:
 
+> Pode usar `git restore nome-arquivo`
+
+Ou
  1) Na pasta que representa o seu projeto, faça uma alteração qualquer no arquivo index.html;
 
 2) Execute o git status e veja que há uma alteração para adicionar;
@@ -214,3 +219,15 @@ depois enviar suas alterações `git push repositorio-remoto`
 ## Exibição das mudanças com o Diff
 
 comando: `git diff`. É possível visualizarmos as mudanças realizadas em determinado código. Podemos ver as diferenças entre commits, branches, etc.
+
+1. Ver mudanças Entre commits: `git diff hash-do-commit..hash-do-último-commit-realizado`
+
+## Release (versões)
+
+> Execute o comando `git tag -a nome-desejado` para criar uma tag no seu código;
+
+exemplo: `git push origin v0.1.0`
+
+>Enviando tag(versão): `git push local v0.1.0`
+>Enviando para o github(Consulte o nome `git remote -v`)
+depois envie `git push origin v0.1.0`
