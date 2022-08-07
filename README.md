@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @Jooaomar
-- 🌱 I’m currently learning Python
+- 👋 Hi, I’m João Marcelo
+- 🌱 I’m web systems developer
 - 💞️ I’m looking to collaborate on creation of customized projects
-- 📫 How to reach me ...
+- 📫 Contact: jmrcl91@gmail.com
 
 <!---
 Jooaomar/Jooaomar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
