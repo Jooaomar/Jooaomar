@@ -1,5 +1,5 @@
 - 👋 Hi, I’m João Marcelo
-- 🌱 I’m web systems developer
+- 🌱 I'm a web systems developer with experience in Laravel, React and Python
 - 💞️ I’m looking to collaborate on creation of customized projects
 - 📫 Contact: jmrcl91@gmail.com
 
